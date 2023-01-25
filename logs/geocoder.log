@@ -1,0 +1,289 @@
+2022/12/24 23:42:22.912066 app.go:21: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/24 23:42:22.912253 app.go:22: serverUp, 
+2022/12/24 23:44:36.609316 app.go:23: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/24 23:44:36.609367 app.go:24: serverUp, 0.0.0.0:8081
+2022/12/24 23:58:32.068500 app.go:25: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/24 23:58:32.068555 app.go:26: serverUp, 0.0.0.0:8081
+2022/12/24 23:58:32.081672 database.go:37: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 00:04:22.118743 app.go:25: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 00:04:22.118805 app.go:26: serverUp, 0.0.0.0:8081
+2022/12/25 00:04:22.131140 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 20:05:19.637144 app.go:25: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 20:05:19.637194 app.go:26: serverUp, 0.0.0.0:8081
+2022/12/25 20:05:19.653071 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 20:17:10.996359 app.go:25: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 20:17:10.996427 app.go:26: serverUp, 0.0.0.0:8081
+2022/12/25 20:17:11.008021 database.go:47: Conected to DB, localhost:27017/geocoderdb
+[GIN] 2022/12/25 - 20:19:38 | 404 |      48.922µs |             ::1 | GET      "/"
+[GIN] 2022/12/25 - 20:19:56 | 404 |       21.26µs |             ::1 | GET      "/api/v1/"
+[GIN] 2022/12/25 - 20:22:51 | 404 |      33.533µs |             ::1 | POST     "/api/v1/users/"
+2022/12/25 20:23:46.365117 app.go:25: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 20:23:46.365165 app.go:26: serverUp, 0.0.0.0:8081
+2022/12/25 20:23:46.378261 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 20:23:59.820858 app.go:25: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 20:23:59.820900 app.go:26: serverUp, 0.0.0.0:8081
+2022/12/25 20:23:59.832509 database.go:47: Conected to DB, localhost:27017/geocoderdb
+[GIN] 2022/12/25 - 20:24:03 | 404 |      35.347µs |             ::1 | POST     "/api/v1/users/"
+2022/12/25 20:26:15.005420 app.go:27: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 20:26:15.005498 app.go:28: serverUp, 0.0.0.0:8081
+2022/12/25 20:26:15.016458 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 20:26:15.016604 authentication.go:132: LoadJWTAuth
+2022/12/25 20:26:15.016620 authentication.go:140: key: string_largo_unico_por_proyecto
+[GIN] 2022/12/25 - 20:26:19 | 401 |      90.781µs |             ::1 | POST     "/api/v1/users"
+2022/12/25 20:31:08.469573 authentication.go:27: LoginFunc
+[GIN] 2022/12/25 - 20:31:08 | 401 |     339.169µs |             ::1 | POST     "/api/v1/login"
+2022/12/25 20:32:53.742458 authentication.go:27: LoginFunc
+[GIN] 2022/12/25 - 20:32:53 | 401 |    8.506844ms |             ::1 | POST     "/api/v1/login"
+2022/12/25 20:38:18.611195 app.go:27: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 20:38:18.611256 app.go:28: serverUp, 0.0.0.0:8081
+2022/12/25 20:38:18.621778 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 20:38:18.621925 authentication.go:132: LoadJWTAuth
+2022/12/25 20:38:18.621940 authentication.go:140: key: string_largo_unico_del_proyecto_geocoder
+2022/12/25 20:39:43.455888 app.go:27: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 20:39:43.455971 app.go:28: serverUp, 0.0.0.0:8081
+2022/12/25 20:39:43.462544 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 20:39:43.462651 authentication.go:132: LoadJWTAuth
+2022/12/25 20:39:43.462663 authentication.go:140: key: string_largo_unico_del_proyecto_geocoder
+[GIN] 2022/12/25 - 20:39:46 | 201 |   21.965062ms |             ::1 | POST     "/api/v1/users"
+2022/12/25 20:42:25.687620 app.go:27: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 20:42:25.687755 app.go:28: serverUp, 0.0.0.0:8081
+2022/12/25 20:42:25.700644 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 20:42:25.700805 authentication.go:132: LoadJWTAuth
+2022/12/25 20:42:25.700823 authentication.go:140: key: string_largo_unico_del_proyecto_geocoder
+[GIN] 2022/12/25 - 20:42:27 | 401 |      72.196µs |             ::1 | POST     "/api/v1/users"
+2022/12/25 20:42:33.601173 authentication.go:27: LoginFunc
+2022/12/25 20:42:33.605006 authentication.go:61: crypto/bcrypt: hashedPassword is not the hash of the given password
+[GIN] 2022/12/25 - 20:42:33 | 401 |    3.909602ms |             ::1 | POST     "/api/v1/login"
+2022/12/25 20:42:47.131605 authentication.go:27: LoginFunc
+[GIN] 2022/12/25 - 20:42:47 | 401 |     128.051µs |             ::1 | POST     "/api/v1/login"
+2022/12/25 20:45:46.368724 app.go:27: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 20:45:46.368780 app.go:28: serverUp, 0.0.0.0:8081
+2022/12/25 20:45:46.380642 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 20:45:46.380746 authentication.go:132: LoadJWTAuth
+2022/12/25 20:45:46.380757 authentication.go:140: key: string_largo_unico_del_proyecto_geocoder
+[GIN] 2022/12/25 - 20:45:51 | 201 |    3.732107ms |             ::1 | POST     "/api/v1/users"
+2022/12/25 20:46:02.824109 authentication.go:27: LoginFunc
+2022/12/25 20:46:02.836194 authentication.go:61: crypto/bcrypt: hashedPassword is not the hash of the given password
+[GIN] 2022/12/25 - 20:46:02 | 401 |   12.197479ms |             ::1 | POST     "/api/v1/login"
+2022/12/25 20:46:09.480121 authentication.go:27: LoginFunc
+2022/12/25 20:46:09.482726 authentication.go:118: map[rol:Admin user:{ObjectIdHex("63a8b67fcdaf94929c242df8") luis.veasc@usach.cl Luis Veas C   }]
+[GIN] 2022/12/25 - 20:46:09 | 200 |    2.755385ms |             ::1 | POST     "/api/v1/login"
+2022/12/25 20:46:45.048574 app.go:27: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 20:46:45.048628 app.go:28: serverUp, 0.0.0.0:8081
+2022/12/25 20:46:45.060899 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 20:46:45.061002 authentication.go:132: LoadJWTAuth
+2022/12/25 20:46:45.061014 authentication.go:140: key: string_largo_unico_del_proyecto_geocoder
+[GIN] 2022/12/25 - 20:47:49 | 401 |      87.736µs |             ::1 | POST     "/api/v1/users"
+2022/12/25 20:47:59.964048 authentication.go:145: owner -> &{ID:ObjectIdHex("63a8b67fcdaf94929c242df8") Email:luis.veasc@usach.cl Name:Luis Veas C Rol: Hash: Password:}
+[GIN] 2022/12/25 - 20:47:59 | 201 |   11.525573ms |             ::1 | POST     "/api/v1/users"
+2022/12/25 20:49:51.532117 authentication.go:145: owner -> &{ID:ObjectIdHex("63a8b67fcdaf94929c242df8") Email:luis.veasc@usach.cl Name:Luis Veas C Rol: Hash: Password:}
+[GIN] 2022/12/25 - 20:49:51 | 201 |   12.622851ms |             ::1 | POST     "/api/v1/users"
+[GIN] 2022/12/25 - 20:50:54 | 401 |      40.665µs |             ::1 | GET      "/api/v1/search/"
+2022/12/25 20:51:02.327989 proxy.go:44: ->>>>> GET localhost:8080/api/v1/search/
+[GIN] 2022/12/25 - 20:51:02 | 400 |    9.576598ms |             ::1 | GET      "/api/v1/search/"
+2022/12/25 20:52:05.124619 app.go:27: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 20:52:05.124674 app.go:28: serverUp, 0.0.0.0:8081
+2022/12/25 20:52:05.136797 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 20:52:05.136923 authentication.go:132: LoadJWTAuth
+2022/12/25 20:52:05.136939 authentication.go:140: key: string_largo_unico_del_proyecto_geocoder
+2022/12/25 20:52:07.945974 proxy.go:44: ->>>>> GET http://localhost:8080/api/v1/search/
+2022/12/25 20:52:08.013070 proxy.go:74: extra: map[User:[63a8b67fcdaf94929c242df8]]
+[GIN] 2022/12/25 - 20:52:08 | 404 |   68.138023ms |             ::1 | GET      "/api/v1/search/"
+2022/12/25 21:24:10.676193 app.go:27: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 21:24:10.676244 app.go:28: serverUp, 0.0.0.0:8081
+2022/12/25 21:24:10.688135 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 21:24:10.688300 authentication.go:132: LoadJWTAuth
+2022/12/25 21:24:10.688314 authentication.go:140: key: string_largo_unico_del_proyecto_geocoder
+2022/12/25 21:25:23.852757 proxy.go:44: ----------------------------------
+2022/12/25 21:25:23.852795 proxy.go:45: RequestURI /api/v1/search/?q=avenue%20pasteur
+2022/12/25 21:25:23.852800 proxy.go:46: RemoteAddr [::1]:45258
+2022/12/25 21:25:23.852805 proxy.go:47: req.Host localhost:8081
+2022/12/25 21:25:23.852809 proxy.go:48: req.Method GET
+2022/12/25 21:25:23.852814 proxy.go:49: req.URL.Path /api/v1/search/
+2022/12/25 21:25:23.852819 proxy.go:50: ->>>>> GET http://localhost:8080/api/v1/search/?q=avenue%20pasteur
+2022/12/25 21:25:23.852823 proxy.go:51: ----------------------------------
+2022/12/25 21:25:23.854185 proxy.go:81: extra: map[User:[63a8b67fcdaf94929c242df8]]
+[GIN] 2022/12/25 - 21:25:23 | 404 |    7.383717ms |             ::1 | GET      "/api/v1/search/?q=avenue%20pasteur"
+2022/12/25 21:25:42.689265 proxy.go:44: ----------------------------------
+2022/12/25 21:25:42.689315 proxy.go:45: RequestURI /api/v1/search/?q=avenue%20pasteur
+2022/12/25 21:25:42.689326 proxy.go:46: RemoteAddr [::1]:45258
+2022/12/25 21:25:42.689336 proxy.go:47: req.Host localhost:8081
+2022/12/25 21:25:42.689353 proxy.go:48: req.Method GET
+2022/12/25 21:25:42.689369 proxy.go:49: req.URL.Path /api/v1/search/
+2022/12/25 21:25:42.689380 proxy.go:50: ->>>>> GET http://localhost:8080/api/v1/search/?q=avenue%20pasteur
+2022/12/25 21:25:42.689390 proxy.go:51: ----------------------------------
+2022/12/25 21:25:42.690836 proxy.go:81: extra: map[User:[63a8b67fcdaf94929c242df8]]
+[GIN] 2022/12/25 - 21:25:42 | 404 |   11.466115ms |             ::1 | GET      "/api/v1/search/?q=avenue%20pasteur"
+2022/12/25 21:26:22.019208 proxy.go:44: ----------------------------------
+2022/12/25 21:26:22.019256 proxy.go:45: RequestURI /api/v1/search/s?q=avenue%20pasteur
+2022/12/25 21:26:22.019269 proxy.go:46: RemoteAddr [::1]:45258
+2022/12/25 21:26:22.019279 proxy.go:47: req.Host localhost:8081
+2022/12/25 21:26:22.019289 proxy.go:48: req.Method GET
+2022/12/25 21:26:22.019300 proxy.go:49: req.URL.Path /api/v1/search/s
+2022/12/25 21:26:22.019311 proxy.go:50: ->>>>> GET http://localhost:8080/api/v1/search/s?q=avenue%20pasteur
+2022/12/25 21:26:22.019321 proxy.go:51: ----------------------------------
+2022/12/25 21:26:22.020869 proxy.go:81: extra: map[User:[63a8b67fcdaf94929c242df8]]
+[GIN] 2022/12/25 - 21:26:22 | 404 |   10.993343ms |             ::1 | GET      "/api/v1/search/s?q=avenue%20pasteur"
+2022/12/25 21:26:48.016531 proxy.go:44: ----------------------------------
+2022/12/25 21:26:48.016567 proxy.go:45: RequestURI /api/v1/search/?q=avenue%20pasteur
+2022/12/25 21:26:48.016572 proxy.go:46: RemoteAddr [::1]:45258
+2022/12/25 21:26:48.016577 proxy.go:47: req.Host localhost:8081
+2022/12/25 21:26:48.016592 proxy.go:48: req.Method GET
+2022/12/25 21:26:48.016597 proxy.go:49: req.URL.Path /api/v1/search/
+2022/12/25 21:26:48.016602 proxy.go:50: ->>>>> GET http://localhost:8080/api/v1/search/?q=avenue%20pasteur
+2022/12/25 21:26:48.016607 proxy.go:51: ----------------------------------
+2022/12/25 21:26:48.017926 proxy.go:81: extra: map[User:[63a8b67fcdaf94929c242df8]]
+[GIN] 2022/12/25 - 21:26:48 | 404 |    7.106853ms |             ::1 | GET      "/api/v1/search/?q=avenue%20pasteur"
+2022/12/25 21:28:45.960944 app.go:27: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 21:28:45.961524 app.go:28: serverUp, 0.0.0.0:8081
+2022/12/25 21:28:45.973721 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 21:28:45.973855 authentication.go:132: LoadJWTAuth
+2022/12/25 21:28:45.973869 authentication.go:140: key: string_largo_unico_del_proyecto_geocoder
+2022/12/25 21:28:53.207115 proxy.go:44: ----------------------------------
+2022/12/25 21:28:53.207145 proxy.go:45: RequestURI /api/v1/search/?q=avenue%20pasteur
+2022/12/25 21:28:53.207155 proxy.go:46: RemoteAddr [::1]:37140
+2022/12/25 21:28:53.207160 proxy.go:47: req.Host localhost:8081
+2022/12/25 21:28:53.207166 proxy.go:48: req.Method GET
+2022/12/25 21:28:53.207170 proxy.go:49: req.URL.Path /api/v1/search/
+2022/12/25 21:28:53.207184 proxy.go:50: req.URL.Query map[q:[avenue pasteur]]
+2022/12/25 21:28:53.207203 proxy.go:51: ->>>>> GET http://localhost:8080/api/v1/search/?q=avenue%20pasteur
+2022/12/25 21:28:53.207209 proxy.go:52: ----------------------------------
+2022/12/25 21:28:53.208438 proxy.go:82: extra: map[User:[63a8b67fcdaf94929c242df8]]
+[GIN] 2022/12/25 - 21:28:53 | 404 |    2.110282ms |             ::1 | GET      "/api/v1/search/?q=avenue%20pasteur"
+2022/12/25 21:37:20.672568 app.go:27: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 21:37:20.672623 app.go:28: serverUp, 0.0.0.0:8081
+2022/12/25 21:37:20.679555 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 21:37:20.679686 authentication.go:132: LoadJWTAuth
+2022/12/25 21:37:20.679704 authentication.go:140: key: string_largo_unico_del_proyecto_geocoder
+2022/12/25 21:37:25.249251 proxy.go:45: ----------------------------------
+2022/12/25 21:37:25.249306 proxy.go:46: RequestURI /api/v1/search/?q=avenue%20pasteur
+2022/12/25 21:37:25.249320 proxy.go:47: RemoteAddr [::1]:37170
+2022/12/25 21:37:25.249335 proxy.go:48: req.Host localhost:8081
+2022/12/25 21:37:25.249345 proxy.go:49: req.Method GET
+2022/12/25 21:37:25.249357 proxy.go:50: req.URL.Path /api/v1/search/
+2022/12/25 21:37:25.249382 proxy.go:51: req.URL.Query map[q:[avenue pasteur]]
+2022/12/25 21:37:25.249396 proxy.go:52: ->>>>> GET http://localhost:8080search.php
+2022/12/25 21:37:25.249406 proxy.go:53: ----------------------------------
+2022/12/25 21:37:25.249431 proxy.go:58: key = q, value(s) = [avenue pasteur]
+[GIN] 2022/12/25 - 21:37:25 | 400 |    1.149881ms |             ::1 | GET      "/api/v1/search/?q=avenue%20pasteur"
+2022/12/25 21:40:30.858733 app.go:27: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 21:40:30.858818 app.go:28: serverUp, 0.0.0.0:8081
+2022/12/25 21:40:30.872114 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 21:40:30.872267 authentication.go:132: LoadJWTAuth
+2022/12/25 21:40:30.872292 authentication.go:140: key: string_largo_unico_del_proyecto_geocoder
+2022/12/25 21:40:35.985323 proxy.go:46: ----------------------------------
+2022/12/25 21:40:35.985358 proxy.go:47: RequestURI /api/v1/search/?q=avenue%20pasteur
+2022/12/25 21:40:35.985362 proxy.go:48: RemoteAddr [::1]:52538
+2022/12/25 21:40:35.985365 proxy.go:49: req.Host localhost:8081
+2022/12/25 21:40:35.985368 proxy.go:50: req.Method GET
+2022/12/25 21:40:35.985372 proxy.go:51: req.URL.Path /api/v1/search/
+2022/12/25 21:40:35.985387 proxy.go:52: req.URL.Query map[q:[avenue pasteur]]
+2022/12/25 21:40:35.985391 proxy.go:53: ->>>>> GET http://localhost:8080/search.php
+2022/12/25 21:40:35.985394 proxy.go:54: ----------------------------------
+2022/12/25 21:40:35.985406 proxy.go:60: key = q, value(s) = [avenue pasteur]
+2022/12/25 21:40:36.029224 proxy.go:89: extra: map[User:[63a8b67fcdaf94929c242df8]]
+[GIN] 2022/12/25 - 21:40:36 | 200 |   44.673209ms |             ::1 | GET      "/api/v1/search/?q=avenue%20pasteur"
+2022/12/25 21:41:15.981083 app.go:27: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 21:41:15.981148 app.go:28: serverUp, 0.0.0.0:8081
+2022/12/25 21:41:15.992854 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 21:41:15.992943 authentication.go:132: LoadJWTAuth
+2022/12/25 21:41:15.992952 authentication.go:140: key: string_largo_unico_del_proyecto_geocoder
+2022/12/25 21:41:19.136985 proxy.go:46: ----------------------------------
+2022/12/25 21:41:19.137056 proxy.go:47: RequestURI /api/v1/search/?q=avenue%20pasteur
+2022/12/25 21:41:19.137076 proxy.go:48: RemoteAddr [::1]:33034
+2022/12/25 21:41:19.137092 proxy.go:49: req.Host localhost:8081
+2022/12/25 21:41:19.137107 proxy.go:50: req.Method GET
+2022/12/25 21:41:19.137122 proxy.go:51: req.URL.Path /api/v1/search/
+2022/12/25 21:41:19.137158 proxy.go:52: req.URL.Query map[q:[avenue pasteur]]
+2022/12/25 21:41:19.137176 proxy.go:54: ----------------------------------
+2022/12/25 21:41:19.137211 proxy.go:60: key = q, value(s) = [avenue pasteur]
+2022/12/25 21:41:19.137233 proxy.go:63: ->>>>> GET http://localhost:8080/search.php
+2022/12/25 21:41:19.186593 proxy.go:91: extra: map[User:[63a8b67fcdaf94929c242df8]]
+[GIN] 2022/12/25 - 21:41:19 | 200 |     50.7516ms |             ::1 | GET      "/api/v1/search/?q=avenue%20pasteur"
+2022/12/25 21:42:33.414040 app.go:27: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 21:42:33.414096 app.go:28: serverUp, 0.0.0.0:8081
+2022/12/25 21:42:33.427900 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 21:42:33.428005 authentication.go:132: LoadJWTAuth
+2022/12/25 21:42:33.428021 authentication.go:140: key: string_largo_unico_del_proyecto_geocoder
+2022/12/25 21:42:34.762628 proxy.go:46: ----------------------------------
+2022/12/25 21:42:34.762675 proxy.go:47: RequestURI /api/v1/search/?q=avenue%20pasteur
+2022/12/25 21:42:34.762684 proxy.go:48: RemoteAddr [::1]:43404
+2022/12/25 21:42:34.762692 proxy.go:49: req.Host localhost:8081
+2022/12/25 21:42:34.762700 proxy.go:50: req.Method GET
+2022/12/25 21:42:34.762708 proxy.go:51: req.URL.Path /api/v1/search/
+2022/12/25 21:42:34.762729 proxy.go:52: req.URL.Query map[q:[avenue pasteur]]
+2022/12/25 21:42:34.762737 proxy.go:54: ----------------------------------
+2022/12/25 21:42:34.762762 proxy.go:60: key = q, value(s) = [avenue pasteur]
+2022/12/25 21:42:34.762776 proxy.go:63: ->>>>> GET 
+2022/12/25 21:42:34.804510 proxy.go:91: extra: map[User:[63a8b67fcdaf94929c242df8]]
+[GIN] 2022/12/25 - 21:42:34 | 200 |   42.830143ms |             ::1 | GET      "/api/v1/search/?q=avenue%20pasteur"
+2022/12/25 21:43:05.039144 app.go:27: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 21:43:05.039233 app.go:28: serverUp, 0.0.0.0:8081
+2022/12/25 21:43:05.051370 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 21:43:05.051520 authentication.go:132: LoadJWTAuth
+2022/12/25 21:43:05.051542 authentication.go:140: key: string_largo_unico_del_proyecto_geocoder
+2022/12/25 21:43:07.735364 proxy.go:46: ----------------------------------
+2022/12/25 21:43:07.735418 proxy.go:47: RequestURI /api/v1/search/?q=avenue%20pasteur
+2022/12/25 21:43:07.735428 proxy.go:48: RemoteAddr [::1]:43430
+2022/12/25 21:43:07.735435 proxy.go:49: req.Host localhost:8081
+2022/12/25 21:43:07.735442 proxy.go:50: req.Method GET
+2022/12/25 21:43:07.735449 proxy.go:51: req.URL.Path /api/v1/search/
+2022/12/25 21:43:07.735469 proxy.go:52: req.URL.Query map[q:[avenue pasteur]]
+2022/12/25 21:43:07.735481 proxy.go:54: ----------------------------------
+2022/12/25 21:43:07.735501 proxy.go:60: key = q, value(s) = [avenue pasteur]
+2022/12/25 21:43:07.735511 proxy.go:63: ->>>>> GET /search.php
+2022/12/25 21:43:07.785667 proxy.go:91: extra: map[User:[63a8b67fcdaf94929c242df8]]
+[GIN] 2022/12/25 - 21:43:07 | 200 |   51.558765ms |             ::1 | GET      "/api/v1/search/?q=avenue%20pasteur"
+2022/12/25 21:44:08.783735 app.go:27: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 21:44:08.783795 app.go:28: serverUp, 0.0.0.0:8081
+2022/12/25 21:44:08.796710 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 21:44:08.796827 authentication.go:132: LoadJWTAuth
+2022/12/25 21:44:08.796837 authentication.go:140: key: string_largo_unico_del_proyecto_geocoder
+2022/12/25 21:44:11.012860 proxy.go:46: ----------------------------------
+2022/12/25 21:44:11.012924 proxy.go:47: RequestURI /api/v1/search/?q=avenue%20pasteur
+2022/12/25 21:44:11.012937 proxy.go:48: RemoteAddr [::1]:41798
+2022/12/25 21:44:11.012946 proxy.go:49: req.Host localhost:8081
+2022/12/25 21:44:11.012956 proxy.go:50: req.Method GET
+2022/12/25 21:44:11.012965 proxy.go:51: req.URL.Path /api/v1/search/
+2022/12/25 21:44:11.012993 proxy.go:52: req.URL.Query map[q:[avenue pasteur]]
+2022/12/25 21:44:11.013004 proxy.go:54: ----------------------------------
+2022/12/25 21:44:11.013030 proxy.go:60: key = q, value(s) = [avenue pasteur]
+2022/12/25 21:44:11.013048 proxy.go:63: req.URL.Query map[]
+2022/12/25 21:44:11.013059 proxy.go:64: ->>>>>  GET   /search.php
+2022/12/25 21:44:11.061260 proxy.go:92: extra: map[User:[63a8b67fcdaf94929c242df8]]
+[GIN] 2022/12/25 - 21:44:11 | 200 |   49.629392ms |             ::1 | GET      "/api/v1/search/?q=avenue%20pasteur"
+2022/12/25 21:46:22.352958 app.go:27: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 21:46:22.353043 app.go:28: serverUp, 0.0.0.0:8081
+2022/12/25 21:46:22.365208 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 21:46:22.365358 authentication.go:132: LoadJWTAuth
+2022/12/25 21:46:22.365375 authentication.go:140: key: string_largo_unico_del_proyecto_geocoder
+2022/12/25 21:46:26.357704 proxy.go:46: ----------------------------------
+2022/12/25 21:46:26.357753 proxy.go:47: RequestURI /api/v1/search/?q=avenue%20pasteur
+2022/12/25 21:46:26.357764 proxy.go:48: RemoteAddr [::1]:46630
+2022/12/25 21:46:26.357773 proxy.go:49: req.Host localhost:8081
+2022/12/25 21:46:26.357782 proxy.go:50: req.Method GET
+2022/12/25 21:46:26.357791 proxy.go:51: req.URL.Path /api/v1/search/
+2022/12/25 21:46:26.357816 proxy.go:52: req.URL.Query map[q:[avenue pasteur]]
+2022/12/25 21:46:26.357830 proxy.go:54: ----------------------------------
+2022/12/25 21:46:26.357856 proxy.go:63: key = q, value(s) = [avenue pasteur]
+2022/12/25 21:46:26.357877 proxy.go:67: req.URL.Query map[]
+2022/12/25 21:46:26.357890 proxy.go:68: ->>>>>  GET   /search.php?
+2022/12/25 21:46:26.378580 proxy.go:96: extra: map[User:[63a8b67fcdaf94929c242df8]]
+[GIN] 2022/12/25 - 21:46:26 | 200 |   21.945705ms |             ::1 | GET      "/api/v1/search/?q=avenue%20pasteur"
+2022/12/25 21:54:31.101028 app.go:27: Start system: GeoCoder, version: V1.0, created by: LVC-CA-MM
+2022/12/25 21:54:31.101089 app.go:28: serverUp, 0.0.0.0:8081
+2022/12/25 21:54:31.112515 database.go:47: Conected to DB, localhost:27017/geocoderdb
+2022/12/25 21:54:31.112634 authentication.go:132: LoadJWTAuth
+2022/12/25 21:54:31.112661 authentication.go:140: key: string_largo_unico_del_proyecto_geocoder
+2022/12/25 21:54:34.667801 proxy.go:45: ----------------------------------
+2022/12/25 21:54:34.667845 proxy.go:46: RequestURI /api/v1/search/?q=avenue%20pasteur
+2022/12/25 21:54:34.667854 proxy.go:47: RemoteAddr [::1]:53726
+2022/12/25 21:54:34.667861 proxy.go:48: req.Host localhost:8081
+2022/12/25 21:54:34.667868 proxy.go:49: req.Method GET
+2022/12/25 21:54:34.667882 proxy.go:50: req.URL.Path /api/v1/search/
+2022/12/25 21:54:34.667909 proxy.go:51: req.URL.Query map[q:[avenue pasteur]]
+2022/12/25 21:54:34.667918 proxy.go:53: ----------------------------------
+2022/12/25 21:54:34.667940 proxy.go:62: req.URL.Query map[q:[avenue pasteur]]
+2022/12/25 21:54:34.667954 proxy.go:63: ->>>>>  GET   /search.php?q=avenue+pasteur
+2022/12/25 21:54:34.725187 proxy.go:91: extra: map[User:[63a8b67fcdaf94929c242df8]]
+[GIN] 2022/12/25 - 21:54:34 | 200 |   58.238774ms |             ::1 | GET      "/api/v1/search/?q=avenue%20pasteur"
